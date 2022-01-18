@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador/Desencriptador de texto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="header">
+  <h1 class="titulo">Código Secreto</h1>
+</section>
+
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <h2 id="">Mensaje a encriptar:</h2>  
+        <textarea class="text-input" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui"></textarea>
+        <label class="text-label" for="input-texto"><p>Solo letras minúsculas, sin acento</p></label>
+        <div class="btn-bottom">
+          <input class="btn" type="submit" value="encriptar!" id="btn-encriptar">
+          <input class="btn" type="submit" value="desencriptar!" id="btn-desencriptar">
+      </div>
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <h2 id="">Mensaje encriptada:</h2>
+      <textarea class="text-input" name="msg" id="msg"></textarea>
+      <div class="btn-bottom">
+        <input class="btn" type="submit" value="copiar" id="btn-copy">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Autor: Juan José Quiroga Z.</p>
+    <p><a href="mailto:jjqz29@gmail.com">jjqz29@gmail.com</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
