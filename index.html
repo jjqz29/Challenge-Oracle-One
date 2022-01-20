@@ -5,21 +5,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Encriptador/Desencriptador de texto</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
   <section class="header">
-  <h1 class="titulo">Código Secreto</h1>
-</section>
+    <h1 class="title">Encriptador/Desencriptador de texto</h1>
+  </section>
 
   <main class="main">
+    <div class="container">
     <section class="form box">
       <form action="">
-        <h2 id="">Mensaje a encriptar:</h2>  
+        <h2 class="subtitle">Mensaje a encriptar:</h2>  
         <textarea class="text-input" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui"></textarea>
         <label class="text-label" for="input-texto"><p>Solo letras minúsculas, sin acento</p></label>
-        <label class="text-label" for="input-texto" id="error"></label>
+        <label class="text-label error" for="input-texto" id="error"></label>
         <div class="btn-bottom">
           <input class="btn" type="submit" value="encriptar!" id="btn-encriptar">
           <input class="btn" type="submit" value="desencriptar!" id="btn-desencriptar">
@@ -28,12 +29,13 @@
     </section>
   
     <section class="msg box">
-      <h2 id="">Mensaje encriptada:</h2>
+      <h2 class="subtitle">Mensaje encriptada:</h2>
       <textarea class="text-input" name="msg" id="msg"></textarea>
       <div class="btn-bottom">
         <input class="btn" type="submit" value="copiar" id="btn-copy">
       </div>
     </section>
+  </div>
   </main>
 
   <footer>
